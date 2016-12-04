@@ -1,0 +1,15 @@
+input {
+  font-family: Arial;
+  font-size: 10px;
+}
+
+input[type=number] {
+  text-align: right;
+  width: 48px;
+}
+
+label {
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;
+}

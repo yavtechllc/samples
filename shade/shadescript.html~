@@ -1,0 +1,15 @@
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="./drawshades.js"></script>
+<link rel="stylesheet" type="text/css" href="mystyle.css"><link rel="stylesheet" type="text/css" href="mystyle.css">
+<div id="dashboard">
+  <div>
+    <label for="range-min">Min:</label>&nbsp;<input type="number" id="range-min" value="-4" />
+    &nbsp;
+    <label for="range-max">Max:</label>&nbsp;<input type="number" id="range-max" value="4" />
+    &nbsp;
+    <input type="button" id="range-draw" value="Draw Chart" />
+  </div>
+  <div id="chart-combo"></div>
+  <div id="chart-control-range"></div>
+  <div id="chart-table"></div>
+</div>
